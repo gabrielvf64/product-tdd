@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+            <state relative-caret-position="490">
+              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -152,7 +152,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594863454549" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594863655890" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -171,7 +171,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ShoppingTest.test_ShoppingCart_amount">
+    <configuration name="ShoppingTest.test_ShoppingCart_amount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producttdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabrielvicente.packt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabrielvicente.packt" />
+      <option name="MAIN_CLASS_NAME" value="com.gabrielvicente.packt.ShoppingTest" />
+      <option name="METHOD_NAME" value="test_ShoppingCart_amount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShoppingTest.test_products_added_to_ShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="producttdd" />
       <extension name="coverage">
@@ -188,8 +204,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.ShoppingTest.test_products_added_to_ShoppingCart" />
+      <item itemvalue="JUnit.ShoppingTest.test_ShoppingCart_amount" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingTest.test_ShoppingCart_amount" />
         <item itemvalue="JUnit.ShoppingTest.test_products_added_to_ShoppingCart" />
       </list>
     </recent_temporary>
@@ -247,14 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594862869391</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create test to add a new product to the shoppingCart">
+      <created>1594863506944</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594863506944</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,7 +348,8 @@
     <MESSAGE value="add allArgs construtor for Product" />
     <MESSAGE value="add ShoppingCart and ShoppingCartTest classes" />
     <MESSAGE value="add setup method to the test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add setup method to the test" />
+    <MESSAGE value="create test to add a new product to the shoppingCart" />
+    <option name="LAST_COMMIT_MESSAGE" value="create test to add a new product to the shoppingCart" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -409,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        <state relative-caret-position="490">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
