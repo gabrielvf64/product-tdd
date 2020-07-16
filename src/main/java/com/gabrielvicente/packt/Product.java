@@ -11,4 +11,11 @@ public class Product {
 
     public Product() {
     }
+
+    public Product(Integer id, String name, String description, Float price) {
+        this.id = id;
+        this.name = name;
+        this.description = description;
+        this.price = price;
+    }
 }
