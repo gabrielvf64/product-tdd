@@ -4,7 +4,7 @@ public class Shopping {
     public static void main(String[] args) {
 
         Product firstProduct = new Product(1, "USB drive", "120 GB USB Drive", 19.9F);
-        Product secondProduct = new Product(2, "External Hard drive", "1 TB USB Drive", 120.0F);
+        Product secondProduct = new Product(2, "External Hard drive", "1 TB USB Drive", 79.9F);
 
         Checkout checkout = new Checkout();
         checkout.addToCart(firstProduct);
