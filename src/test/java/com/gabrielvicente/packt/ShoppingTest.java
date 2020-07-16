@@ -1,7 +1,9 @@
 package com.gabrielvicente.packt;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
 public class ShoppingTest {
 
@@ -20,6 +22,19 @@ public class ShoppingTest {
 
         checkout.addToCart(firstProduct);
         checkout.addToCart(secondProduct);
+    }
+
+    @Test
+    @DisplayName("Test if products added to shopping cart successfully")
+    public void test_products_added_to_ShoppingCart() {
+        // GIVEN two products in the shopping cart
+
+        // WHEN
+        Product newProduct = new Product(3, "New External Hard drive", "1 TB USB Drive", 79.9F);
+        checkout.addToCart(newProduct);
+
+        // THEN
+        Assertions.assertEquals(3, checkout.getProductList().size());
     }
 
 }
