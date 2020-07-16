@@ -1,20 +1,13 @@
 package com.gabrielvicente.packt;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * Unit test for simple Shopping.
- */
-public class ShoppingTest
-{
-    /**
-     * Rigorous Test :-)
-     */
+public class ShoppingTest {
+
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void shouldAnswerWithTrue() {
+        assertTrue(true);
     }
 }
