@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb4756b-4498-42eb-9444-7fa98bfe97ca" name="Default Changelist" comment="">
+    <list default="true" id="ddb4756b-4498-42eb-9444-7fa98bfe97ca" name="Default Changelist" comment="create test to check if the total amount is calculated correctly">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java" afterDir="false" />
     </list>
@@ -18,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+            <state relative-caret-position="404">
+              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,10 +29,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Cart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#438#439#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Shopping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="216">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -90,7 +114,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,10 +172,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594863655890" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595082784081" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -171,7 +195,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingTest.test_ShoppingCart_amount">
+  <component name="RunManager" selected="JUnit.ShoppingTest.test_product_removal_from_cart">
+    <configuration name="ShoppingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producttdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabrielvicente.packt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabrielvicente.packt" />
+      <option name="MAIN_CLASS_NAME" value="com.gabrielvicente.packt.ShoppingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShoppingTest.test_ShoppingCart_amount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="producttdd" />
       <extension name="coverage">
@@ -183,6 +221,38 @@
       <option name="PACKAGE_NAME" value="com.gabrielvicente.packt" />
       <option name="MAIN_CLASS_NAME" value="com.gabrielvicente.packt.ShoppingTest" />
       <option name="METHOD_NAME" value="test_ShoppingCart_amount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingTest.test_due_amount_calculation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producttdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabrielvicente.packt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabrielvicente.packt" />
+      <option name="MAIN_CLASS_NAME" value="com.gabrielvicente.packt.ShoppingTest" />
+      <option name="METHOD_NAME" value="test_due_amount_calculation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingTest.test_product_removal_from_cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producttdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabrielvicente.packt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabrielvicente.packt" />
+      <option name="MAIN_CLASS_NAME" value="com.gabrielvicente.packt.ShoppingTest" />
+      <option name="METHOD_NAME" value="test_product_removal_from_cart" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,9 +277,15 @@
     <list>
       <item itemvalue="JUnit.ShoppingTest.test_products_added_to_ShoppingCart" />
       <item itemvalue="JUnit.ShoppingTest.test_ShoppingCart_amount" />
+      <item itemvalue="JUnit.ShoppingTest" />
+      <item itemvalue="JUnit.ShoppingTest.test_due_amount_calculation" />
+      <item itemvalue="JUnit.ShoppingTest.test_product_removal_from_cart" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingTest.test_product_removal_from_cart" />
+        <item itemvalue="JUnit.ShoppingTest.test_due_amount_calculation" />
+        <item itemvalue="JUnit.ShoppingTest" />
         <item itemvalue="JUnit.ShoppingTest.test_ShoppingCart_amount" />
         <item itemvalue="JUnit.ShoppingTest.test_products_added_to_ShoppingCart" />
       </list>
@@ -275,14 +351,38 @@
       <option name="project" value="LOCAL" />
       <updated>1594863506944</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="create test to check if the total amount is calculated correctly">
+      <created>1594863703232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594863703232</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ShoppingTest_test_products_added_to_ShoppingCart - 2020.07.15 at 22h 37m 18s.xml">
+      <configuration name="ShoppingTest.test_products_added_to_ShoppingCart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_test_ShoppingCart_amount - 2020.07.15 at 22h 41m 02s.xml">
+      <configuration name="ShoppingTest.test_ShoppingCart_amount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest - 2020.07.15 at 22h 41m 54s.xml">
+      <configuration name="ShoppingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_test_due_amount_calculation - 2020.07.18 at 11h 28m 41s.xml">
+      <configuration name="ShoppingTest.test_due_amount_calculation" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_test_product_removal_from_cart - 2020.07.18 at 11h 32m 22s.xml">
+      <configuration name="ShoppingTest.test_product_removal_from_cart" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -291,7 +391,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,7 +449,8 @@
     <MESSAGE value="add ShoppingCart and ShoppingCartTest classes" />
     <MESSAGE value="add setup method to the test" />
     <MESSAGE value="create test to add a new product to the shoppingCart" />
-    <option name="LAST_COMMIT_MESSAGE" value="create test to add a new product to the shoppingCart" />
+    <MESSAGE value="create test to check if the total amount is calculated correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="create test to check if the total amount is calculated correctly" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -363,10 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-561">
           <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
-          <folding>
-            <element signature="e#7280#7281#0" expanded="true" />
-            <element signature="e#7348#7349#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -384,37 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Cart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
-          <folding>
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/PaymentStatus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -429,17 +495,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Shopping.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="216">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Cart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        <state relative-caret-position="404">
+          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

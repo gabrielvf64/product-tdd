@@ -48,4 +48,15 @@ public class ShoppingTest {
         assertEquals(99.8F, checkout.getTotalAmount());
     }
 
+    @Test
+    @DisplayName("Test if due amount is calculated correctly")
+    public void test_due_amount_calculation() {
+        // GIVEN two products in the shopping cart
+
+        // WHEN
+        checkout.pay(90.8F);
+
+        // THEN
+        assertEquals(9.0F, (float) checkout.getPaymentDue());
+    }
 }
