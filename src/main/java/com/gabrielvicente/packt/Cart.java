@@ -16,6 +16,7 @@ public class Cart {
 
     public void removeFromCart(Product product) {
         productList.remove(product);
+        totalAmount -= product.getPrice();
     }
 
     public void emptyCart() {
