@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ddb4756b-4498-42eb-9444-7fa98bfe97ca" name="Default Changelist" comment="create test to check if the total amount is calculated correctly">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="ddb4756b-4498-42eb-9444-7fa98bfe97ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            <state relative-caret-position="142">
+              <caret line="85" column="68" selection-start-line="85" selection-start-column="68" selection-end-line="85" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,12 +31,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Cart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="522">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#575#576#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -86,12 +86,12 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Cart.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/PaymentStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Shopping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java" />
       </list>
     </option>
@@ -176,7 +176,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595082947699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595083429822" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -195,7 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShoppingTest.test_product_removal_from_cart">
+  <component name="RunManager" selected="JUnit.ShoppingTest.test_if_payment_status_is_correct">
     <configuration name="ShoppingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="producttdd" />
       <extension name="coverage">
@@ -242,6 +242,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShoppingTest.test_if_payment_status_is_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="producttdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gabrielvicente.packt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gabrielvicente.packt" />
+      <option name="MAIN_CLASS_NAME" value="com.gabrielvicente.packt.ShoppingTest" />
+      <option name="METHOD_NAME" value="test_if_payment_status_is_correct" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShoppingTest.test_product_removal_from_cart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="producttdd" />
       <extension name="coverage">
@@ -258,36 +274,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingTest.test_products_added_to_ShoppingCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="producttdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gabrielvicente.packt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.gabrielvicente.packt" />
-      <option name="MAIN_CLASS_NAME" value="com.gabrielvicente.packt.ShoppingTest" />
-      <option name="METHOD_NAME" value="test_products_added_to_ShoppingCart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.ShoppingTest.test_products_added_to_ShoppingCart" />
       <item itemvalue="JUnit.ShoppingTest.test_ShoppingCart_amount" />
       <item itemvalue="JUnit.ShoppingTest" />
       <item itemvalue="JUnit.ShoppingTest.test_due_amount_calculation" />
       <item itemvalue="JUnit.ShoppingTest.test_product_removal_from_cart" />
+      <item itemvalue="JUnit.ShoppingTest.test_if_payment_status_is_correct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShoppingTest.test_if_payment_status_is_correct" />
+        <item itemvalue="JUnit.ShoppingTest" />
         <item itemvalue="JUnit.ShoppingTest.test_product_removal_from_cart" />
         <item itemvalue="JUnit.ShoppingTest.test_due_amount_calculation" />
-        <item itemvalue="JUnit.ShoppingTest" />
         <item itemvalue="JUnit.ShoppingTest.test_ShoppingCart_amount" />
-        <item itemvalue="JUnit.ShoppingTest.test_products_added_to_ShoppingCart" />
       </list>
     </recent_temporary>
   </component>
@@ -358,7 +358,28 @@
       <option name="project" value="LOCAL" />
       <updated>1594863703232</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create test about the amount calculation">
+      <created>1595082829744</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595082829744</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create failed test">
+      <created>1595082857681</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595082857681</updated>
+    </task>
+    <task id="LOCAL-00011" summary="correct implemantation and test passed">
+      <created>1595082988183</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1595082988183</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -377,6 +398,18 @@
     <history-entry file="ShoppingTest_test_product_removal_from_cart - 2020.07.18 at 11h 32m 22s.xml">
       <configuration name="ShoppingTest.test_product_removal_from_cart" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShoppingTest_test_product_removal_from_cart - 2020.07.18 at 11h 34m 41s.xml">
+      <configuration name="ShoppingTest.test_product_removal_from_cart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_test_product_removal_from_cart - 2020.07.18 at 11h 35m 44s.xml">
+      <configuration name="ShoppingTest.test_product_removal_from_cart" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest - 2020.07.18 at 11h 36m 43s.xml">
+      <configuration name="ShoppingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShoppingTest_test_if_payment_status_is_correct - 2020.07.18 at 11h 41m 23s.xml">
+      <configuration name="ShoppingTest.test_if_payment_status_is_correct" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -392,7 +425,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -450,7 +483,10 @@
     <MESSAGE value="add setup method to the test" />
     <MESSAGE value="create test to add a new product to the shoppingCart" />
     <MESSAGE value="create test to check if the total amount is calculated correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="create test to check if the total amount is calculated correctly" />
+    <MESSAGE value="create test about the amount calculation" />
+    <MESSAGE value="create failed test" />
+    <MESSAGE value="correct implemantation and test passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct implemantation and test passed" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -495,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Shopping.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -511,20 +540,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Cart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        <state relative-caret-position="522">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gabrielvicente/packt/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/gabrielvicente/packt/ShoppingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        <state relative-caret-position="142">
+          <caret line="85" column="68" selection-start-line="85" selection-start-column="68" selection-end-line="85" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

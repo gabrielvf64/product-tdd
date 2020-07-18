@@ -26,16 +26,16 @@ public class Checkout extends Cart {
         paymentDate = new Date();
     }
 
+    public void complete() {
+        printCartDetails();
+        confirmOrder();
+    }
+
     public void confirmOrder() {
         if (paymentDue == 0) {
             System.out.println("Payment successful! Thanks for the order.");
         } else if (paymentDue > 0) {
             System.out.printf("Payment failed! Remaining %f needs to be paid", paymentDue);
         }
-    }
-
-    public void complete() {
-        printCartDetails();
-        confirmOrder();
     }
 }

@@ -72,4 +72,17 @@ public class ShoppingTest {
         assertEquals(1, checkout.getProductList().size());
         assertEquals(79.9F, (float) checkout.getTotalAmount());
     }
+
+    @Test
+    @DisplayName("Test if payment is correct")
+    public void test_if_payment_status_is_correct() {
+        // GIVEN two products in the shopping cart
+
+        // WHEN
+        checkout.pay(99.8F);
+        checkout.complete();
+
+        // THEN
+        assertEquals(PaymentStatus.DONE, checkout.getPaymentStatus());
+    }
 }
