@@ -59,4 +59,17 @@ public class ShoppingTest {
         // THEN
         assertEquals(9.0F, (float) checkout.getPaymentDue());
     }
+
+    @Test
+    @DisplayName("Test if product removed from cart correctly")
+    public void test_product_removal_from_cart() {
+        // GIVEN two products in the shopping cart
+
+        // WHEN
+        checkout.removeFromCart(firstProduct);
+
+        // THEN
+        assertEquals(1, checkout.getProductList().size());
+        assertEquals(79.9F, (float) checkout.getTotalAmount());
+    }
 }
